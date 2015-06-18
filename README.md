@@ -34,8 +34,9 @@ subject_id | activity | motion_label | mean
 1 | WALKING | tBodyAcc-std()-Y  |  0.11446134
 1 | WALKING | tBodyAcc-std()-Z  | -0.26002790
 
-which fits my interpretation of 'tidy': each row gives the mean value for an
-of a motion measurement x for individual i undertaking activity j. YMMV.
+which fits my interpretation of 'tidy': the mean variable gives the mean value 
+of a motion measurement x (motion_label) for individual i (subject_id) 
+undertaking activity j (activity).
 
 All of this is much less complicated than it sounds. Because the raw data files
 are all of the same dimension, they can be very simply appended together. Then
