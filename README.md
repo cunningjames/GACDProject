@@ -3,9 +3,9 @@
 Getting and Cleaning Data Course Project
 
 The script contained within this repository is intended to satisfy project 
-requirements for Getting and Cleaning Data. We've been given some messy data
-spread out over several files; our task is to create a new, tidy dataset by
-merging and summarizing.
+requirements for Getting and Cleaning Data, 2015 June. In short: we've been
+given some messy data spread out over several files; our task is to create a 
+new, tidy dataset by merging and summarizing.
 
 The data in question involve measurements of three-dimensional motion for
 thirty individuals. Multiple pieces of information must be aggregated:
@@ -23,7 +23,6 @@ thirty individuals. Multiple pieces of information must be aggregated:
 
 My end goal is a dataset that looks something like this (for the first six 
 rows):
-
 
 subject_id | activity | motion_label | mean
 ---------- | -------- | ------------ | ----
