@@ -23,7 +23,9 @@ thirty individuals. Multiple pieces of information must be aggregated:
 
 My end goal is a dataset that looks something like this:
 
- |  subject_id | activity |     motion_label |        mean
+
+
+id |  subject_id | activity |     motion_label |        mean
 -|-------------|----------|------------------|-------------
 1 |          1 |  WALKING | tBodyAcc-mean()-X | 0.27733076
 2 |          1 |  WALKING | tBodyAcc-mean()-Y | -0.01738382
