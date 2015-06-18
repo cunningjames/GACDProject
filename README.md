@@ -21,20 +21,18 @@ thirty individuals. Multiple pieces of information must be aggregated:
 6. ... where the X, Y, and subject datasets come in 'train' and 'test'
    varieties.
 
-My end goal is a dataset that looks something like this:
+My end goal is a dataset that looks something like this (for the first six 
+rows):
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
 
-  subject_id activity      motion_label        mean
-1          1  WALKING tBodyAcc-mean()-X  0.27733076
-2          1  WALKING tBodyAcc-mean()-Y -0.01738382
-3          1  WALKING tBodyAcc-mean()-Z -0.11114810
-4          1  WALKING  tBodyAcc-std()-X -0.28374026
-5          1  WALKING  tBodyAcc-std()-Y  0.11446134
-6          1  WALKING  tBodyAcc-std()-Z -0.26002790
+subject_id | activity | motion_label | mean
+---------- | -------- | ------------ | ----
+1 | WALKING | tBodyAcc-mean()-X | 0.27733076
+1 | WALKING | tBodyAcc-mean()-Y | -0.01738382
+1 | WALKING | tBodyAcc-mean()-Z | -0.11114810
+1 | WALKING | tBodyAcc-std()-X  | -0.28374026
+1 | WALKING | tBodyAcc-std()-Y  |  0.11446134
+1 | WALKING | tBodyAcc-std()-Z  | -0.26002790
 
 which fits my interpretation of 'tidy': each row gives the mean value for an
 of a motion measurement x for individual i undertaking activity j. YMMV.
